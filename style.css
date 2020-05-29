@@ -1,0 +1,133 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+/* HEADER */
+.top-header {
+  position: fixed;
+  overflow: hidden;
+  width: 98%;
+  background-color: white;
+  margin-top: -10px;
+}
+
+.search {
+  padding-left: 200px;
+}
+
+.fa-search {
+  background-color: rgb(226, 222, 222);
+  padding: 5px;
+}
+
+.fa-youtube {
+  color: red;
+}
+.fa-user-circle {
+  color: green;
+}
+
+.list-right .header-right {
+  float: right;
+}
+
+/* Main video, description, and comments */
+.main-content {
+  padding: 40px 0 10px 50px;
+  width: 60%;
+  float: left;
+}
+
+.main-video {
+  width: 90%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.video-description {
+  padding: 0 20px 0 20px;
+}
+
+.subscribe {
+  background-color: rgb(185, 8, 8);
+  color: white;
+  padding: 10px;
+  border-radius: 5%;
+  float: right;
+}
+
+.category {
+  padding-right: 20px;
+}
+
+.comment-count {
+  padding-right: 20px;
+}
+
+.comment {
+  padding: 20px;
+}
+
+.timestamp {
+  padding-left: 10px;
+}
+
+.view-count {
+  margin-left: -60px;
+  padding-right: 40px;
+}
+
+/* Autoplay videos */
+.up-next-videos figcaption {
+  float: right;
+  width: 20%;
+}
+
+.up-next-videos {
+  float: left;
+  padding-top: 50px;
+  width: 28%;
+}
+
+.up-next-videos img {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
+.up-next-videos p {
+  padding-left: 30px;
+}
+
+.autoplay-toggle {
+  float: right;
+}
+
+/* Mobile media query */
+@media only screen and (max-width: 600px) {
+  .main-content {
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .up-next-videos {
+    padding-left: 5px;
+    width: 80%;
+  }
+
+  .search {
+    padding-left: 10px;
+  }
+
+  .header-right {
+    display: none;
+  }
+}
